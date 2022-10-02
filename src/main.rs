@@ -1,8 +1,4 @@
-pub mod hello {
-    pub fn doprint() {
-        println!("Test");
-    }
-}
+mod hello;
 
 fn main() {
     crate::hello::doprint();
